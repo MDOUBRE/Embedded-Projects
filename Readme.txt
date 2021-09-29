@@ -1,6 +1,6 @@
 This folder contains my differents project in the domain of Embedded Systems.
 
-Projects done :
+Ended projects :
 
 
 Current projects :
