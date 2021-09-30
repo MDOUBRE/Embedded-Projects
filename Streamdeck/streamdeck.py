@@ -1,7 +1,7 @@
 import subprocess
 import serial
 import webbrowser
-#import wx ou un truc dans le genre
+#from tkinter import *
 
 #csgo = 'C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe'
 #csgo = 'C:\Program Files (x86)\Steam//rungameid/222980'
@@ -39,6 +39,8 @@ while(bouton!="stop"):
     if(bouton=="b1"):
         test=subprocess.Popen(steam)
         test.wx_attributes("-topmost",1)
+        # il faut voir la doc de tkinter pour le faire
+        # ca ne se fait peut etre pas avec tkinter, peut etre seulement pour les fenetres d'un pgrm et pas pour un pgrm
     elif(bouton=="b2"):
         subprocess.Popen(vibrance)
     elif(bouton=="b3"):
