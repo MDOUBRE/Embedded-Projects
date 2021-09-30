@@ -1,6 +1,7 @@
 import subprocess
 import serial
 import webbrowser
+#import wx ou un truc dans le genre
 
 #csgo = 'C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo.exe'
 #csgo = 'C:\Program Files (x86)\Steam//rungameid/222980'
@@ -36,7 +37,8 @@ bouton=donneBouton(boutontmp)
 
 while(bouton!="stop"):
     if(bouton=="b1"):
-        subprocess.Popen(steam)
+        test=subprocess.Popen(steam)
+        test.wx_attributes("-topmost",1)
     elif(bouton=="b2"):
         subprocess.Popen(vibrance)
     elif(bouton=="b3"):
