@@ -4,8 +4,8 @@ Ended projects :
 
 
 Current projects :
-- DIY 911 GT3R Steering wheel (Arduino)
-- DIY Streamdeck (Arduino + Python)
+- DIY 911 GT3R Steering wheel (Arduino)          |  30 heures
+- DIY Streamdeck (Arduino + Python)              |  15 heures
 
 Future projects :
 - RC Car (STM32)
